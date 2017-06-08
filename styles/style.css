@@ -1,0 +1,136 @@
+<style>
+body {
+    background-image: url(images/img.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;         /* Generic*/
+}
+#main {
+  width: 600px;
+  margin: 0 auto; 
+}
+header {
+    background-color:transparent;
+	color:Orange;
+    padding:5px;
+}
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+section {
+    width:600px;
+	min-height:300px;
+    padding:10px; 
+	text-align: justify;
+	font-family:comic sans ms;
+	color:Orange;	
+
+	}
+
+.par{
+text-align:centerjustified;
+font-size:26px;
+font-family:comic sans ms;
+}
+label {
+    float: left;
+    width: 20%;
+    text-align: right;
+    font-size:20px;
+    margin: 13px 0px;
+	margin-right: 4.0em;
+    white-space: nowrap;
+    overflow: ellipsis;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+}
+.form-field-no-caption {
+    margin-left: 20%;
+    padding-left: 5.0em;
+	margin-right: 4.0em;
+}
+input[type="text"]{
+    box-sizing: border-box;
+	padding:10px;
+    border: 2px solid yellow;
+    border-radius: 4px;
+	background-color: orange;
+    color: white;
+    margin: 8px 0;
+	font-size:14px;
+}
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+button{
+ background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px; 
+}
+
+#cf {
+  position:relative;
+  height:100px;
+  width:100px;
+  float: right;
+  margin-top:38px;
+  margin-right:100px;
+ 
+ 
+}
+
+#cf img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+ 
+}
+
+#cf img.top:hover {
+  opacity:0;
+}
+
+</style>
